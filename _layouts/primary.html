@@ -1,0 +1,28 @@
+---
+primary-css:
+  - "/assets/css/styles.css"
+  - "/assets/css/posts.css"
+  - "/assets/css/theme-colors.css"
+---
+
+<!DOCTYPE html>
+<html lang="en" class="page-fade-in">
+
+  {% include head.html %}
+
+  <body class="primary-theme-color">
+    <header id="primary-top-nav-header-id">
+      {% include top-nav.html %}
+    </header>
+
+    <main id="primary-main-content-footer-id">
+      {{ content }}
+    </main>
+
+    <footer id="primary-bot-nav-footer-id">
+      {% include bottom-nav.html %}
+      {% include cookie-consent.html %}
+    </footer>
+  </body>
+
+</html>
