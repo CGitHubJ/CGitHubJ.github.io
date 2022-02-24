@@ -4,7 +4,7 @@
  * JavaScript functions to check for cookie consent banner for site usage.
  */
 
-const consentValue = "anidiotinvests-cookie-consent-02-18-2022";
+const consentValue = "bookenjenn-cookie-consent-02-24-2022";
 
 setTimeout(function checkConsent() {
     try {
