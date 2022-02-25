@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,wght@1,100&display=swap');
 
 * {
   margin: 0;
@@ -12,7 +12,7 @@ html {
 h1, h2, h3, h4, h5, h6 {
   margin: 8px 0;
   padding-top: 20px;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Roboto Serif', sans-serif;
 }
 
 p {
@@ -85,7 +85,7 @@ a, a:link {
   text-align: center;
   font-size: 15pt;
   color: #62246B;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Roboto Serif', sans-serif;
 }
 
 .navbar-brand {
