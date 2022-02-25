@@ -16,7 +16,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: An Idiot Invests
+title: BookEnjenn
 description: >- # this means to ignore newlines until "baseurl:"
   I Love Books | Book Reviews and More! | Book Enjenn | bookenjenn.com
 
