@@ -17,8 +17,6 @@ keywords:
 <!-- <img src="/assets/img/book-covers/beach-read-cover-img.png" alt="IMG Not Found" width="100%" />
 - Link to image -->
 
-Harry Potter, but make it gay. 
-
 It was a mistake that got Robin, a baronet short on funds, to work in the secret magical society in England with Edwin Courcey. With Edwin’s friend and Robin’s predecessor, Reginald Gatling, missing, mayhem transpires as the unlikely duo solve Reggie’s disappearance and the missing contract that threatens the lives of every magician.
 
 I reviewed so many books featuring romance but I heard from so many booktubers like [fictionalfates](https://www.youtube.com/c/fictionalfates) that I knew I had to read this book. I started listening to the audiobook with David Thorpe narrating and I recognized his previous work on another book I read, [‘The Rosie Project’](https://www.goodreads.com/book/show/16181775-the-rosie-project?ac=1&from_search=true&qid=XYNOqIlnq6&rank=1) by Graeme Simsion. Simsion did an exceptional job narrating a book about a socially inept professor searching for the perfect partner, and he delivered the same work through ‘A Marvellous Light’ as well. 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Beach Read Book Review"
+title: "Beach Read by Emily Henry Book Review"
 date: 2022-02-24 19:41:50
 categories: review
 permalink: beach-read-book-review
