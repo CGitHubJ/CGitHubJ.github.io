@@ -26,16 +26,17 @@
 
 
     {% if page.is_post %}
-        {% assign type = "article" %}
+    {% assign type = "article" %}
     {% else %}
-        {% assign type = "website" %}
+    {% assign type = "website" %}
     {% endif %}
 
     <meta property="og:type" content="{{ type }}" />
     <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}" />
     <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
-    <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 140 }}{% else %}{{ site.description }}{% endif %}" />
-    
+    <meta property="og:description"
+        content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 140 }}{% else %}{{ site.description }}{% endif %}" />
+
     {% if page.imgUrl %}
     <meta property="og:image" content="{{ page.imgUrl | absolute_url }}" />
     {% else %}
@@ -53,19 +54,19 @@
         crossorigin="anonymous"></script>
 
     {% if layout.primary-css %}
-        {% for css in layout.primary-css %}
-        <link rel="stylesheet" href="{{ css | relative_url }}">
-        {% endfor %}
+    {% for css in layout.primary-css %}
+    <link rel="stylesheet" href="{{ css | relative_url }}">
+    {% endfor %}
     {% endif %}
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3600J6D1TZ"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YKR7RYKJQD"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+        function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
 
-        gtag('config', 'G-3600J6D1TZ');
+        gtag('config', 'G-YKR7RYKJQD', {cookie_flags: 'SameSite=None;Secure' });
     </script>
 
 </head>
