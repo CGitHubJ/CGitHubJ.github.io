@@ -1,7 +1,6 @@
 ---
 layout: post
-title: "A Marvellous Light by Freya Marske Review
-"
+title: A Marvellous Light by Freya Marske Review
 date: 2022-03-03 19:41:50
 categories: review
 permalink: a-marvellous-light-book-review

@@ -26,6 +26,17 @@ p {
   flex: 1;
 }
 
+.float-left {
+  display: relative;
+  /* margin-left: auto;
+  margin-right: auto; */
+  width: 30%;
+  float: left;
+  /* margin: 10px; */
+  margin: 0;
+  padding: 5px;
+}
+
 .post-content, .blog-content {
   padding: 0 16px;
   /* overflow: hidden; */
