@@ -4,7 +4,7 @@ title: "Beach Read by Emily Henry Book Review"
 date: 2022-02-24 19:41:50
 categories: review
 permalink: beach-read-book-review
-imgUrl: /assets/img/book-covers/beach-read-cover-img.png
+imgUrl: beach-read-cover-img.png
 description: I usually cringe at the thought of polar opposites getting together, but I had the best time reading Beach Read by Emily Henry. 
 keywords:
   - book

@@ -3,8 +3,8 @@ layout: post
 title: Books I DNF'd (but want to read again)
 date: 2022-03-09 19:41:50
 categories: review
-permalink: books-i-dnf'd-but-want-to-read-again
-imgUrl: /assets/img/thumbnail/dnf-thumbnail.png
+permalink: books-i-dnfd-but-want-to-read-again
+imgUrl: dnf-thumbnail.png
 description: Don't call me crazy as I tell you why I did not finish these popular books. 
 keywords:
   - book
