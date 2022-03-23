@@ -17,7 +17,7 @@ There will always be a book left unfinished for readers. It sounds tragic, but i
 
 ## Kafka on the Shore by Haruki Murikami
 
-<img src="/assets/img/book-covers/kafka-on-the-shore.jpg" class="float-left">
+<img src="/assets/img/2022-03/kafka-on-the-shore.jpg" class="float-left">
 
 An odyssey of magical realism featuring teenager Kafka Tamura running away from his destiny and Nakata, an elderly person who has the mysterious ability to talk to cats.
 
@@ -29,7 +29,7 @@ Reasons I DNF’d: some parts of the story were particularly too slow which made
 
 ## The Song of Achilles by Madeline Miller
 
-<img src="/assets/img/book-covers/the-song-of-achilles.jpg" class="float-left">
+<img src="/assets/img/2022-03/the-song-of-achilles.jpg" class="float-left">
 
 A slow burn romance between Patroclus, an exiled prince, and Achilles, a demigod born for greatness, in the retelling of the Trojan War.
 
@@ -41,7 +41,7 @@ Reasons I DNF’d: I’m a heartless sociopath in need of therapy… and I thoug
 
 ## The Anthropocene Reviewed by John Green
 
-<img src="/assets/img/book-covers/the-anthropocene-reviewed.jpg" class="float-left">
+<img src="/assets/img/2022-03/the-anthropocene-reviewed.jpg" class="float-left">
 
 From John Green’s critically acclaimed podcast holds a collection of personal essays on how people have changed the environment for the better and worse, but sometimes better.
 
@@ -53,7 +53,7 @@ Reasons I DNF’d: I enjoyed Green’s fictional work so much that I thought I w
 
 # The Island of Missing Trees by Elif Shafak
 
-<img src="/assets/img/book-covers/the-island-of-missing-trees.jpg" class="float-left">
+<img src="/assets/img/2022-03/the-island-of-missing-trees.jpg" class="float-left">
 
 Two teens from opossing countries meet, fall in love, and disappear war breaks out. As times goes by Ada searches her family history through a tree that grows in her backyard.
 
