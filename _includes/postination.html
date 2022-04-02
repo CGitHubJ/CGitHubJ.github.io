@@ -5,13 +5,16 @@
         <div class="post-listing-card-top">
             <img src='/assets/img/{{ post.date | date: "%Y-%m" }}/{{ post.imgUrl }}' alt="Img Not Found">
 
-            <div class="sample-post-text">
-                <p>{{ post.description | default: post.title }}</p>
-            </div>
+            
         </div>
 
         <div class="post-listing-card-bottom">
             <h2> <a class="anc-hover" href="{{ post.url | absolute_url }}">{{ post.title }}</a> </h2>
+
+
+            <div class="sample-post-text">
+                <p>{{ post.description | default: post.title }}</p>
+            </div>
 
             <div class="date-posted-stamp">
                 {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
