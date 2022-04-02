@@ -3,13 +3,15 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: unset;
 }
 
 html {
   overflow-y: scroll;
+  box-sizing: unset;
+}
+
+body {
+  box-sizing: unset;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -31,8 +33,6 @@ p {
 
 .float-left {
   display: relative;
-  /* margin-left: auto;
-  margin-right: auto; */
   width: 30%;
   float: left;
   /* margin: 10px; */
@@ -42,7 +42,6 @@ p {
 
 .post-content {
   padding: 0;
-  /* overflow: hidden; */
 }
 
 .blog-content {
@@ -63,7 +62,7 @@ p {
 
 .post-content {
   margin: 0px auto 0px auto;
-  max-width: 1500px;
+  max-width: 1300px;
   text-align: center;
 }
 
