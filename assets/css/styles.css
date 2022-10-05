@@ -157,3 +157,14 @@ a, a:link {
   visibility: hidden;
   height: 0;
 }
+
+.img-caption-include {
+  text-align: center;
+  margin: 10px auto 10px auto;
+  width: 90%;
+  border: solid 1px whitesmoke;
+}
+
+.img-caption-include img {
+  width: 100%;
+}
