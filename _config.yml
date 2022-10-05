@@ -26,6 +26,10 @@ url: "https://bookenjenn.com" # the base hostname & protocol for your site, e.g.
 date_format: "%B %-d, %Y"
 excerpt_separator: "<!--excs-->"
 
+dentoniteUrl: http://www.thedentonite.com/culture?author=5c3cbfe5352f53368c1260fe
+linkedinUrl: https://www.linkedin.com/in/jennifer-chastka-915570145
+goodreadsUrl: https://www.goodreads.com/user/show/16060897-jenn-chastka
+
 defaults:
   -
     scope:

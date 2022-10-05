@@ -22,7 +22,8 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 15pt;
+  font-size: 1.3rem;
+
   margin: 0;
   line-height: 1.5;
 }
@@ -100,7 +101,7 @@ a, a:link {
 .navbar-dark .nav-link {
   min-width: 90px;
   text-align: center;
-  font-size: 15pt;
+  font-size: 1.5rem;
   color: #62246B;
   font-family: 'Federant', sans-serif;
 }

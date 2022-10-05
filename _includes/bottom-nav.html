@@ -1,5 +1,5 @@
 <div class="theme-colors text-light">
-  
+
   <div class="container-fluid">
 
     <section class="justify-content-center">
@@ -15,7 +15,7 @@
 
         </div> -->
 
-        <div class="col ms-auto text-center" {% if page.is_post %} data-nosnippet="true" {% endif %} >
+        <div class="col ms-auto text-center" {% if page.is_post %} data-nosnippet="true" {% endif %}>
 
           <div>
             <a href="/"><img height="120px" src="/assets/img/primary/logo.png"></a>
@@ -24,6 +24,18 @@
           <p>
             I love books!
           </p>
+
+        </div>
+
+        <div class="col text-center ms-auto p-2">
+
+          <h5>Follow Me</h5>
+
+          <a href="{{ site.linkedinUrl }}">
+            <i class="fab fa-linkedin fa-3x m-2"></i></a>
+
+          <a href="{{ site.goodreadsUrl }}">
+            <i class="fab fa-goodreads fa-3x m-2"></i></a>
 
         </div>
 
