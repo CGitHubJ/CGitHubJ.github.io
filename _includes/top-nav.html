@@ -12,12 +12,15 @@
     <div class="collapse navbar-collapse noselect" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
+
         <li class="nav-item">
-          <a class="nav-link" href="/">Blog</a>
+          <a {% if page.name=="index.md" %}class='nav-link active' {% else %}class='nav-link' {% endif %}
+            href="/" draggable="false">Home</span></a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="/about">About</a>
+          <a {% if page.name=="about.md" %}class='nav-link active' {% else %}class='nav-link' {% endif %}
+            href="/about">About</a>
         </li>
 
       </ul>
