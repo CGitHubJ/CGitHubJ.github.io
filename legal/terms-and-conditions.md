@@ -1,7 +1,6 @@
 ---
 layout: legal
 title: "Terms and Conditions"
-edit_date: 2022-02-24 19:41:52
 categories: legal
 ---
 
