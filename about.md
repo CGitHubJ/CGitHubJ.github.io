@@ -2,7 +2,7 @@
 layout: about
 ---
 
-{% include image-caption.html primary="about-me-book-shelf.png" %}
+{% include image-caption.html primary="my-profile-pic.png" capWidth="50%" %}
 
 Hello and welcome to my blog! I'm an avid book reader and working on making my other hobby, writing, my daily habit. What better way to write more often than to write about something I'm obsessed about.
 
