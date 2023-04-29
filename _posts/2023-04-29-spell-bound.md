@@ -9,10 +9,10 @@ description: Who says you need magic to save people?
 keywords:
   - spell
   - bound
-  - book
+  - magic
   - lukens
 ---
-I don't know about you, but I’m always in the mood for books about a magical society needing to rectify itself by two people who may like each other a lot. Or just a book about magical realism in general. 
+I don't know about you, but I’m always in the mood for books about a magical society needing to rectify itself by two people who may like each other a lot. Or just a book on magical realism in general. 
 
 Edison Rooker doesn’t have an ounce of magic in his body, something that would have kept him in the magical world after his grandmother died: no wand, spell book, or Hagrid to whisk him away on his 13th birthday. While there is no eccentric half-giant with a cake and motorcycle, Antonia Hex is a powerful sorceress on-call for magical emergencies big and small. Thanks to Antonia’s technological illiteracies, Edison is given a new job, and nickname, as the office clerk. Edison–now Rook–is okay with this as long as he’s back in the magical world and its community.
 
