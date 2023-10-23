@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Threads That Bindd by Kika Hatzopoulou Review
-date: 2023-10-23 14:41:50
+date: 2023-10-23 10:41:50
 categories: review
 permalink: threads-that-bind
 imgUrl: threads-that-bind.png
