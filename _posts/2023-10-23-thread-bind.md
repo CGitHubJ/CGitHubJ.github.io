@@ -1,16 +1,17 @@
 ---
 layout: post
-title: Threads That Bindd by Kika Hatzopoulou Review
+title: Threads That Bind by Kika Hatzopoulou Review
 date: 2023-10-23 10:41:50
 categories: review
 permalink: threads-that-bind
 imgUrl: threads-that-bind.png
-description: Threads that bind.
+description: No More Retellings
 keywords:
   - threads
   - bind
   - magic
   - Kika
+  - Greek
 ---
 I read tellings and re-tellings of Greek mythology since I was little. I can count and recount the number of times I read about the gods and see their adventures become more intricately woven than what Arachne could weave. After thousands of years, we still see a new retelling of one of the Greek myths, and I don’t see why not. Mythology is the original foundation for storytelling. From stories about war to forbidden romances, we always find a new book or film about mortals and their interactions with Greek gods. Sometimes, it seems like the wheel is rebuilding over and over, and at others, it’s just far left field that you can enjoy the story without knowing what happens next. Threads that Bind is that story. 
 
