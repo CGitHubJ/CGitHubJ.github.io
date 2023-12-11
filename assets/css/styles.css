@@ -34,11 +34,11 @@ p {
 
 .float-left {
   display: relative;
-  width: 30%;
+  width: 26%;
   float: left;
-  /* margin: 10px; */
+  margin: 3px;
   margin: 0;
-  padding: 7px;
+  padding: 6px;
 }
 
 .post-content {
