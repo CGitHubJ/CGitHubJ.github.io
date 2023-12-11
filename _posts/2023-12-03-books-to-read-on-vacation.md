@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Books to Read During the Holidays
-date: 2023-04-29 14:41:50
+date: 2023-12-11 08:41:50
 categories: review
 permalink: books-to-read-during-the-holidays
 imgUrl: dec-vacay-thumbnail.png
@@ -17,7 +17,7 @@ Books to Read During the Holidays
 
 The last holidays of the year are around the corner, and you may have planned everything out down to the cost of presents on Black Friday to the pit stops chosen on your trip to your in-laws. What you don’t have is anything to read during the holidays, and I have a list that can not only finish your Goodreads goal by the end of the year while exploring new genres. I promise you this list is meant for people who have too much or too little time for themselves and want to enjoy the least hectic part of visiting or hosting families and friends. Isn’t that what Christmas is all about? 
 
-## [The 7 1/2 Deaths of Evelyn Hardcastle by Stuart Turton](www.goodreads.com/book/show/36337550-the-7-1-2-deaths-of-evelyn-hardcastle) 
+<h2><a href="www.goodreads.com/book/show36337550-the-7-1-2-deaths-of-evelyn-hardcastle">The 7 1/2 Deaths of Evelyn Hardcastle by Stuart Turton</a></h2>
 
 <img src="/assets/img/2023-12/seven-lives-of-e-hardcastle.jpg" class="float-left">
 
