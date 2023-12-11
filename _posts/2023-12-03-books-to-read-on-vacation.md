@@ -20,7 +20,7 @@ The last holidays of the year are around the corner, and you may have planned ev
 <!-- ](www.goodreads.com/book/show36337550-the-7-1-2-deaths-of-evelyn-hardcastle) -->
 ## The 7 1/2 Deaths of Evelyn Hardcastle by Stuart Turton
 
-<img src="/assets/img/2023-12/seven-lives-of-e-hardcastle.jpg" class="float-left">
+<img src="/assets/img/2023-12/seven-lives-of-e-hardcastle.jpg" class="center-image">
 
 ### For when you want to solve a mystery
 
@@ -29,7 +29,7 @@ Aiden Bishop has eight days to find Evelyn’s killer; the only cost is that he 
 <!-- (www.goodreads.com/book/show/41949311-someone-who-will-love-you-in-all-your-damaged-glory?from_search=true&from_srp=true&qid=H7m8a975kn&rank=1) -->
 ## Someone Who Will Love You in All Your Damaged Glory by Raphael Bob-Waksberg
 
-<img src="/assets/img/2023-12/damaged-glory.jpg" class="float-left">
+<img src="/assets/img/2023-12/damaged-glory.jpg" class="center-image">
 
 ### For when you want to read short stories that will make you laugh hysterically or cry a little
 
@@ -38,7 +38,7 @@ From the creator of BoJack Horseman comes 18 short stories that are as captivati
 <!-- (www.goodreads.com/book/show/21413662-what-if-serious-scientific-answers-to-absurd-hypothetical-questions?from_search=true&from_srp=true&qid=RILS77Wn0N&rank=1) -->
 ## What If? Serious Scientific Answers to Absurd Hypothetical Questions by Randall Munroe
 
-<img src="/assets/img/2023-12/what-if-1.jpg" class="float-left">
+<img src="/assets/img/2023-12/what-if-1.jpg" class="center-image">
 
 ### For the liberal arts major in a family of scientists
 
@@ -47,7 +47,7 @@ A webcomic series turned Goodreads Nominee for Best Nonfiction is a fantastic bo
 <!-- (www.goodreads.com/book/show/50224049-how-to-kill-your-family?ref=nav_sb_ss_2_39)  -->
 ## How to Kill Your Family by Bella Mackie
 
-<img src="/assets/img/2023-12/how-to-kill-your-family.jpg" class="float-left">
+<img src="/assets/img/2023-12/how-to-kill-your-family.jpg" class="center-image">
 
 ### If you think your family is bad, read this
 
@@ -56,7 +56,7 @@ Grace Bernard is in prison for a murder she did not commit. She did, however, ki
 <!-- (www.goodreads.com/book/show/57021127-portrait-of-a-thief?ac=1&from_search=true&qid=XjSlLvn6nR&rank=1) -->
 ## Portrait of a Thief by Grace D. Li
 
-<img src="/assets/img/2023-12/portrait-of-a-thief.jpg" class="float-left">
+<img src="/assets/img/2023-12/portrait-of-a-thief.jpg" class="center-image">
 
 ### For families who visit movie theaters as part of their tradition
 
@@ -65,7 +65,7 @@ A mysterious benefactor from China reaches out to Will, a senior studying art hi
 <!-- (www.goodreads.com/book/show/54860443-one-last-stop?ref=nav_sb_ss_1_32) -->
 ## One Last Stop by Casey McQuiston
 
-<img src="/assets/img/2023-12/one-last-stop.jpg" class="float-left">
+<img src="/assets/img/2023-12/one-last-stop.jpg" class="center-image">
 
 ### All romance, some mystery, and no detectives
 
@@ -74,7 +74,7 @@ August does not believe anything will happen to her after she moves to New York 
 <!-- ](www.goodreads.com/book/show/18007564-the-martian?ref=nav_sb_ss_2_24) -->
 ## The Martian by Andy Weir
 
-<img src="/assets/img/2023-12/the-martian.jpg" class="float-left">
+<img src="/assets/img/2023-12/the-martian.jpg" class="center-image">
 
 ### For when you feel trapped, but not literally
 
