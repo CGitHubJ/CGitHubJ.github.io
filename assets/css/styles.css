@@ -198,3 +198,13 @@ a:hover {
   width: 100%;
   height: 842px;
 }
+
+/* about page section */
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  min-width: 400px;
+}
