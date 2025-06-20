@@ -12,10 +12,6 @@ keywords:
   - Henry
   - review
 ---
-
-<!-- <img src="/assets/img/book-covers/beach-read-cover-img.png" alt="IMG Not Found" width="100%" />
-- Link to image -->
-
 August Everett is a literary author who takes ‘kill your darlings’ to heart in his works. January Andrews writes novels where love conquers all, just like the life she thought her parents had. That is until her father’s affair partner shows up at his funeral. Now January has three months to clean out and sell her father’s second home while finishing her latest novel.
 
 Should be easy, right?

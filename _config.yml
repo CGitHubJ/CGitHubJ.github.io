@@ -19,10 +19,13 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
+author: bookenjenn
 defaults:
-  -
-    scope:
+  - scope:
       path: ""      # empty string for all files
       type: posts   # limit to posts
     values:
+      image: /assets/img/primary/about-me-book-shelf.png
+      height: 600
+      width: 600
       is_post: true # automatically set is_post=true for all posts
