@@ -9,15 +9,15 @@ Social media can be a fun way to advertise to potential clients. Most of my expe
 <h4>Bookstr</h4>
 Bookstr is a book marketing company that connects people through bookish content, including celebrations of new author releases, fun memes for book lovers, and writing advice from authors. Our content is made by readers for readers. 
 
-<h5>Captions for Bookstr</h4>
+<h5>Captions for Bookstr</h5>
 <ul>
 <li><a href="https://www.instagram.com/p/DM7y_1eCWV1/?img_index=1">Author One-on-One with Julia Whelan</a></li>
-<li><a href="https://www.instagram.com/p/DOeDWM2Ds3-/?img_index=1">#DVpit Reaturing after Yearlong Hiatus</a></li>
+<li><a href="https://www.instagram.com/p/DOeDWM2Ds3-/?img_index=1">#DVpit Reaturing After Yearlong Hiatus</a></li>
 <li><a href="https://www.instagram.com/bookstrofficial/p/DOnuvb7DD4P/">Featured Reveiw</a></li>
 <li><a href="https://www.instagram.com/p/DP4EPJTjn47/?img_index=1">Author One-on-One with Joelle Wellington</a></li>
 </ul>
 
-<h5>Content for Bookstr</h4>
+<h5>Content for Bookstr</h5>
 <ul>
 <li><a href="https://www.threads.com/@bookstrofficial/post/DOgu-IvgtBL">Undead TBR</a></li>
 <li><a href="https://bsky.app/profile/bookstr.bsky.social/post/3lxn345plsk25">Mood Board for Fall</a></li>
