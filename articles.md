@@ -6,6 +6,12 @@ layout: portfolio
 
 This portfolio contains links to articles or magazines I worked on. My expereince includes layout, writing, editing, and, of course, publishing. My favorite part of the process is researching because of everything I learn about any given topic.
 
+<h4>Bookstr:</h4>
+<ul>
+<li><a href="https://bookstr.com/article/vampiric-lgbtq-romance-books-to-sink-your-teeth-into/">Vampiric LGBTQ+ Romance Books to Sink Your Teeth Into </a></li>
+<li><a href="https://bookstr.com/article/6-vibrant-childrens-books-with-deaf-and-hoh-rep/">6 Vibrant Children’s Books with Deaf and HoH Rep</a></li>
+</ul>
+
 <h4>Retractable Technologies, Inc.:</h4>
 <ul>
 <li><a href="https://www.retractable.com/african-american-trailblazers-in-nursing/">African-American Trailblazers in Nursing </a></li>
