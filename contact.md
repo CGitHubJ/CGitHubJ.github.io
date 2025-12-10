@@ -4,6 +4,10 @@ layout: contact
 
 {% include image-caption.html primary="my-profile-pic.png" capWidth="50%" %}
 
-I’m an avid reader with years of experience in copyediting and writing. If you have a story you want to publish, I’m here to make it happen! I can offer edits and suggestions that can improve the story line, identify plot holes holding the work back, review for grammatical mistakes, or write an honest book review after reading. I enjoy literary fiction, sci-fi/fantasy, young adult/new adult fiction, humor/satire, romance, and horror.  My website is called BookEnJenn because I never stopped reading when I first found out that there are virtual libraries. What started as a form of escapism turned into a hobby where I encourage readers to read from new authors, whether their debut, self-published, or translated from another languages. I want to help authors find their audience before their book is published.
+I’m a dynamic writer, editor, and content creator with proven skills in translating complex ideas into accessible, engaging content. My approach ensures brands stand out by combining industry insight with tailored storytelling. Whether you need blog posts, website copy, articles, email campaigns, or social media content, I deliver work that sets you apart and fits your voice and goals.
 
-For book inquires, email me  at BlogEnJenn@gmail.com
+My background includes copyediting, long-form writing, content strategy, and managing social channels, along with years of writing for magazines, companies, nonprofits, and digital platforms. BookEnJenn started as a reading project, but it grew into a space where I review books, share recommendations, and collaborate with authors and publishers. That experience taught me how to adapt and create new ideas for content, whether for marketing or publishing, that any audience would enjoy.
+
+If you’re looking for someone who can write, edit, brainstorm, or build content that resonates, I’d love to help.
+
+For inquiries: BlogEnJenn@gmail.com

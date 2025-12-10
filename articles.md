@@ -14,10 +14,10 @@ This portfolio contains links to articles or magazines I worked on. My expereinc
 
 <h4>Retractable Technologies, Inc.:</h4>
 <ul>
-<li><a href="https://www.retractable.com/african-american-trailblazers-in-nursing/">African-American Trailblazers in Nursing </a></li>
 <li><a href="https://online.fliphtml5.com/gbsss/uuwx/#p=1">Nurse Point Magazine Volume 2 No. 1</a></li>
 <li><a href="https://online.fliphtml5.com/gbsss/rjlk/#p=1">Safety Point Magazine Volume 1 No. 2</a></li>
 <li><a href="https://online.fliphtml5.com/gbsss/zord/#p=1">Safety Point Magazine Volume 1 No. 1 (edited)</a></li>
+<li><a href="https://www.retractable.com/african-american-trailblazers-in-nursing/">African-American Trailblazers in Nursing </a></li>
 </ul>
 
 <h4>Dentonite:</h4>
