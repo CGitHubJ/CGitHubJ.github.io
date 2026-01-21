@@ -10,19 +10,24 @@ I write audience-focused digital content that supports brand campaigns across so
 Bookstr is a book marketing company that connects people through bookish content, including celebrations of new book publications, fun memes for book lovers, writing advice from authors, and so much more! Our content is made for readers by readers. 
 
 <h5>Captions for Bookstr</h5>
+<h6>Captions for Bookstr</h6>
+These captions showcase my work for Bookstr, written using the brand’s in-house style guide with a focus on strong hooks, clarity, and reader engagement. I covered publishing news, author milestones, and new releases while maintaining Bookstr’s voice and encouraging interaction. Each post credited authors and publishers and included clear calls to action directing audiences to Bookstr’s website to learn more about their favorite authors.
 <ul>
 <li><a href="https://www.instagram.com/p/DM7y_1eCWV1/?img_index=1">Author One-on-One with Julia Whelan</a></li>
+<li><a href="https://www.instagram.com/p/DPUO6b1Dsa2/">Three to Read Spotlights National Alcohol and Drug Addiction Recovery Month</a></li>
 <li><a href="https://www.instagram.com/p/DOeDWM2Ds3-/?img_index=1">#DVpit Reaturing After Yearlong Hiatus</a></li>
-<li><a href="https://www.instagram.com/bookstrofficial/p/DOnuvb7DD4P/">Featured Reveiw</a></li>
+<li><a href="https://www.instagram.com/bookstrofficial/p/DOnuvb7DD4P/">Featured Reveiw for Hopelessly Teavoted by Audrey Goldberg Ruoff</a></li>
+<li><a href="https://www.instagram.com/p/DPMjgJiDo95/?img_index=1">Author One-on-One Dawn Chen Including Call to Action for Fundraiser
 <li><a href="https://www.instagram.com/p/DP4EPJTjn47/?img_index=1">Author One-on-One with Joelle Wellington</a></li>
 </ul>
 
 <h5>Graphics for Bookstr</h5>
-<ul>
-<li><a href="https://www.instagram.com/p/DQt0bBCkm9K/">We Want You To Tell Us What You're Currently Reading!</a></li>
-<li><a href="https://www.instagram.com/p/DQ2L-vYiLTQ/">Our Ideal Bookshelf</a></li>
+<ul> 
+<li><a href="https://www.instagram.com/p/DQt0bBCkm9K/">We want you to tell us what you're currently reading!</a></li>
+<li><a href="https://www.instagram.com/p/DTBBIdXDvxb/?hl=en">May the new year be filled with joy and books.</a></li>
+<li><a href=https://www.instagram.com/p/DSLKJgHDokA/?hl=en>If you're shopping for the holidays...</a></li>
+<li><a href="https://www.instagram.com/p/DQ2L-vYiLTQ/">Our ideal bookshelf</a></li>
 <li><a href="https://www.threads.com/@bookstrofficial/post/DOgu-IvgtBL">Undead TBR</a></li>
-<li><a href="https://bsky.app/profile/bookstr.bsky.social/post/3lxn345plsk25">Mood Board for Fall</a></li>
 </ul>
 
 <h4>Retractable Technologies, Inc.:</h4>
