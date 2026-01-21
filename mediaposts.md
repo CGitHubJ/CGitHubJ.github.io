@@ -18,7 +18,7 @@ These captions showcase my work for Bookstr, written using the brand’s in-hous
 <li><a href="https://www.instagram.com/bookstrofficial/p/DOnuvb7DD4P/">Featured Reveiw for Hopelessly Teavoted by Audrey Goldberg Ruoff</a></li>
 <li><a href="https://www.instagram.com/p/DPMjgJiDo95/?img_index=1">Author One-on-One Dawn Chen Including Call to Action for Fundraiser
 <li><a href="https://www.instagram.com/p/DP4EPJTjn47/?img_index=1">Author One-on-One with Joelle Wellington</a></li>
-</ul>
+
 
 <h5>Graphics</h5>
 The graphics below show my experience with Canva, an online graphic design platform. I build images for fun, engaging posts that are relatable to the book industry. These graphics are based on recent trends that have driven thousands of views across all social media platforms.
