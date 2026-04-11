@@ -26,11 +26,19 @@ h6 {
 }
 
 p {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.3rem;
-
-  margin: 0;
-  line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25rem; /* Slightly reduced from 1.3rem for better proportions */
+    
+    /* Legibility & Smoothness */
+    line-height: 1.65;         /* Adds breathing room between lines */
+    letter-spacing: -0.015em;  /* Arial looks better slightly "tighter" at larger sizes */
+    word-spacing: 0.05em;      /* Improves the flow of sentences */
+    
+    /* Font Smoothing */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    margin: 0;
 }
 
 .spacer {

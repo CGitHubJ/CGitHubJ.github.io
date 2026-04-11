@@ -56,14 +56,15 @@
     height: 100%;
     margin-bottom: 10px;
     width: 100%;
+    border-radius: 8px;
 }
 
 .post-listing-card:hover img {
-    animation: shrink-image .6s forwards;
+    animation: shrink-image .4s forwards;
     width: 100%;
 }
 
-@media only screen and (max-width: 620px) {
+@media only screen and (max-width: 720px) {
     .post-listing-card:hover img {
         animation: none;
         width: 100%;
