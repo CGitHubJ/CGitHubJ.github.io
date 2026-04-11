@@ -111,8 +111,9 @@
 }
 
 .posts-header {
-    background-image: url('../img/primary/about-me-book-shelf.png');
+    background-image: url('../img/primary/about-me-book-shelf.webp');
     background-size: cover;
+    background-position: center;
 
     -webkit-user-select: none;
     -moz-user-select: none;

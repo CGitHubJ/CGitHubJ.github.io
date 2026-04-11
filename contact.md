@@ -2,7 +2,7 @@
 layout: contact
 ---
 
-{% include image-caption.html primary="my-profile-pic.png" capWidth="50%" %}
+{% include image-caption.html primary="my-profile-pic.webp" capWidth="50%" %}
 
 I’m a dynamic writer, editor, and content creator with proven skills in translating complex ideas into accessible, engaging content. My approach ensures brands stand out by combining industry insight with tailored storytelling. Whether you need blog posts, website copy, articles, email campaigns, or social media content, I deliver work that sets you apart and fits your voice and goals.
 

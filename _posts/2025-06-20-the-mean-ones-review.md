@@ -4,7 +4,7 @@ title: The Mean Ones Review
 date: 2025-06-20 10:41:50
 categories: review
 permalink: the-mean-ones
-imgUrl: the-mean-ones-blog.png
+imgUrl: the-mean-ones-blog.webp
 image: /assets/img/2025-06/the-mean-ones-blog.png
 description: The author's first adult horror novel!
 keywords:
