@@ -13,6 +13,8 @@ linkedinUrl: https://www.linkedin.com/in/jennifer-chastka-915570145
 goodreadsUrl: https://www.goodreads.com/user/show/16060897-jenn-chastka
 instagramUrl: https://www.instagram.com/bookenjenn/
 
+privacyUpdate: '2026-17-04'
+
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag

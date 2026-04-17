@@ -4,7 +4,7 @@ title: "Privacy Policy"
 categories: legal
 ---
 
-Last Updated: 4/17/2026
+Last Updated: {{ site.privacyUpdate }}
 
 Welcome! This policy explains how we handle your information when you use our services. Our goal is to be transparent about your privacy rights and how we work to protect your data.
 
