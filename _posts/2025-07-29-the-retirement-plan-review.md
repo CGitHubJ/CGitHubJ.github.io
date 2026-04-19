@@ -10,7 +10,7 @@ keywords:
   - Golden Girls
   - cozy thriller
   - netgalley
-  - Suce Hincenbergs
+  - Sue Hincenbergs
 ---
 
 When a husband from a tight-knit friend group dies in a freak accident, Pam receives the insurance payout of her dreams, thanks to her husband's job at the casino. She can finally retire after her husband and his friends lost the money due to a bad investment years ago. Her friends, Nancy, Shalisa, and Marlene, not only lost their retirement savings but also the spark in their marriages long ago. While Pam is away to close a deal at Boca Raton, the three friends decide to follow the same retirement plan at their husband's expense. While the wives are plotting murder, their husbands are hatching an even riskier scheme to make a fortune where they risk their careers at the casino. As the wives and husbands put their plans in motion (each unknowingly hiring the same hitman, Hector), chaos ensues, and more facts are revealed, leading the couples to question if the money is worth the loss.
