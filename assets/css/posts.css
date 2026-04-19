@@ -67,6 +67,7 @@
     .post-listing-card:hover img {
         animation: none;
         transition: none;
+        width: 100%;
     }
     .sample-post-text {
         all: unset;

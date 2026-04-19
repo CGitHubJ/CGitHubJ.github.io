@@ -5,7 +5,6 @@ date: 2026-04-18 10:41:50
 categories: review
 permalink: attached-at-the-hip
 imgUrl: attached-at-the-hip-blog.webp
-image: /assets/img/2026/attached-at-the-hip-blog.webp
 description: The best book set in reality television!
 keywords:
   - Romance
