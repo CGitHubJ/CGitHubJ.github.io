@@ -13,7 +13,7 @@
 
 .sample-post-text p {
     font-family: 'Federant', sans-serif;
-    padding: 12px;
+    padding: 10px;
     font-size: 18pt;
 }
 
@@ -54,20 +54,16 @@
     opacity: 1;
 }
 
-/* @keyframes shrink-width {
-    0% { width: 100%; opacity: 1; }
-    100% { width: 0%; opacity: 0; }
-} */
-
 .post-listing-card:hover img {
     width: 0%;             /* Shrinks leftward to nothing */
     opacity: 0;
 }
 
-@media only screen and (max-width: 720px) {
+@media (max-width: 821px) {
     .post-listing-card {
         max-height: 3000px;
     }
+    .post-listing-card img,
     .post-listing-card:hover img {
         animation: none;
         transition: none;
@@ -80,7 +76,7 @@
     }
     .sample-post-text p {
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 11pt;
+        font-size: 14pt;
     }
 }
 
