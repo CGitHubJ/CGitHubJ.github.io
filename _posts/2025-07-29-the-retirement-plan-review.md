@@ -4,7 +4,7 @@ title: The Retirement Plan Review
 date: 2025-07-29 10:41:50
 categories: review
 permalink: the-retirement-plan-review
-imgUrl: the-retirement-plan-review.jpg
+image: /assets/img/2025/the-retirement-plan-review.jpg
 description: If "The Golden Girls" watched Mr. & Mrs. Smith, it would go like this.
 keywords:
   - Golden Girls

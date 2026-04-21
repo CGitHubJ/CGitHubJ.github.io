@@ -4,7 +4,7 @@ title: Carrie Soto is Back
 date: 2022-10-08 15:41:50
 categories: review
 permalink: carrie-soto-is-back-review
-imgUrl: carrie-soto-is-back.png
+image: /assets/img/2022/carrie-soto-is-back.png
 description: And so am I!
 keywords:
   - soto

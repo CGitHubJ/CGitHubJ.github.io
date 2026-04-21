@@ -4,7 +4,7 @@ title: Threads That Bind by Kika Hatzopoulou Review
 date: 2023-10-23 10:41:50
 categories: review
 permalink: threads-that-bind
-imgUrl: threads-that-bind.webp
+image: /assets/img/2023/threads-that-bind.webp
 description: No More Retellings
 keywords:
   - threads

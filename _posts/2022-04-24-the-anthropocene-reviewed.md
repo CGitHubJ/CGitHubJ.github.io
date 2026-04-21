@@ -4,7 +4,7 @@ title: The Anthropocene Reviewed by John Green Review
 date: 2022-04-24 15:41:50
 categories: review
 permalink: the-anthropocene-reviewed-by-john-green-review
-imgUrl: the-anthropocene-reviewed.jpg
+image: /assets/img/2022/the-anthropocene-reviewed.jpg
 description: Should John Green create more podcasts? Should a podcast become a book?
 keywords:
   - john 
@@ -12,7 +12,6 @@ keywords:
   - anthropocene
   - essay
   - nonfiction
-  - fun
 ---
 If you read one of my recent blog posts, then you know why I read this book, didn't like it, and tried again.
 

@@ -4,7 +4,7 @@ title: Books to Read During the Holidays
 date: 2023-12-10 10:41:50
 categories: review
 permalink: books-to-read-during-the-holidays
-imgUrl: dec-vacay-thumbnail.png
+image: /assets/img/2023/dec-vacay-thumbnail.png
 description: You'll never be bored again
 keywords:
   - to read

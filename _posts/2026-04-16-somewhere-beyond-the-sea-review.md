@@ -4,7 +4,7 @@ title: Somewhere Beyond the Sea Review
 date: 2026-04-16 10:41:50
 categories: review
 permalink: somewhere-beyond-the-sea
-imgUrl: somewhere-beyond-the-sea-review.webp
+image: /assets/img/2026/somewhere-beyond-the-sea-review.webp
 description: Arthur and Linus are back at it again!
 keywords:
   - Romance

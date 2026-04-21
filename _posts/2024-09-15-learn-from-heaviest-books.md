@@ -4,7 +4,7 @@ title: How to Learn From the Heaviest of Books
 date: 2024-09-15 11:04:00 -400
 categories: Post
 permalink: reading-goals-for-2024
-imgUrl: heavy-books.png
+image: /assets/img/2024/heavy-books.png
 description: Milton Made Me Do It  
 keywords:
   - 2024

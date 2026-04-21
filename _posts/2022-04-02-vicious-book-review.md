@@ -4,7 +4,7 @@ title: Vicious
 date: 2022-04-02 15:41:50
 categories: review
 permalink: vicious-by-v-e-schwab-book-review
-imgUrl: vicious.jpg
+image: /assets/img/2022/vicious.jpg
 description: What makes someone a villian?  
 keywords:
   - gray

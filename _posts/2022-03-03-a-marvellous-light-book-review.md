@@ -4,7 +4,7 @@ title: A Marvellous Light by Freya Marske Review
 date: 2022-03-03 19:41:50
 categories: review
 permalink: a-marvellous-light-book-review
-imgUrl: a-marvellous-light-book-cover.jpg
+image: /assets/img/2022/a-marvellous-light-book-cover.jpg
 description: Harry Potter, but make it gay. 
 keywords:
   - book

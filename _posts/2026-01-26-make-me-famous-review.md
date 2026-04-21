@@ -4,7 +4,7 @@ title: Make Me Famous Review
 date: 2026-01-26 10:41:50
 categories: review
 permalink: make-me-famous-review
-imgUrl: make-me-famous-review.webp
+image: /assets/img/2026/make-me-famous-review.webp
 description: She wants you to believe that she's a victim.
 keywords:
   - Translated Fiction

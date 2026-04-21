@@ -4,7 +4,7 @@ title: Our Infinite Fates Review
 date: 2025-03-01 10:41:50
 categories: review
 permalink: our-infinite-fates
-imgUrl: our-infinite-fates-blog.jpg
+image: /assets/img/2025/our-infinite-fates-blog.jpg
 description: Will They/Won't They... Kill Each Other
 keywords:
   - ya novel

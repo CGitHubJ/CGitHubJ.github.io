@@ -4,7 +4,7 @@ title: George Falls Through Time Review
 date: 2026-01-19 10:41:50
 categories: review
 permalink: george-falls-through-time-review
-imgUrl: george-falls-through-time-review.webp
+image: /assets/img/2026/george-falls-through-time-review.webp
 description: Trading millennial “woes” for medieval survival.
 keywords:
   - Time Travel

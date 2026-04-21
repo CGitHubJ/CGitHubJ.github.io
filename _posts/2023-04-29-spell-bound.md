@@ -4,7 +4,7 @@ title: Spell Bound by F. T. Lukens Review
 date: 2023-04-29 14:41:50
 categories: review
 permalink: spell-bound-review
-imgUrl: spell-bound.png
+image: /assets/img/2023/spell-bound.png
 description: Who says you need magic to save people?
 keywords:
   - spell
