@@ -1,87 +1,50 @@
-.pagez {
-    display: inline-block;
-}
-
-.sample-post-text {
-    text-align: center;
-    z-index: -5;
-    position: absolute;
-    top: 15%;
-    line-height: 1.5;
+.post-card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 300px);
+    gap: 20px 10px;
+    justify-content: center;
     width: 100%;
-}
-
-.sample-post-text p {
-    font-family: 'Federant', sans-serif;
-    padding: 10px;
-    font-size: 18pt;
+    margin: 0 auto;
 }
 
 .post-listing-card {
     position: relative;
-    width: 295px;
-    min-height: 630px;
-    margin: 0 7px 20px;
+    max-width: 300px;
     overflow: hidden;
     cursor: pointer;
 }
-
-.post-listing-card:hover a {
-    color: #247ba0;
-}
-
-.post-listing-card-top { height: 430px }
-.post-listing-card-bottom { min-height: 200px; }
-
-.post-listing-card img {
-    border-bottom: solid gray 1px;
-    height: 430px;
-    margin-bottom: 10px;
-    width: 100%;
-    border-radius: 8px;
-}
-
+.post-listing-card-top { height: 390px; }
 .post-listing-card img {
     display: block;
-    border-bottom: solid gray 1px;
-    height: 100%;
     width: 100%;
-    border-radius: 8px;
+    height: 100%;
     object-fit: cover;
-
+    border-radius: 8px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 10px;
     transition: width 0.5s ease-in-out, opacity 0.4s ease-in-out;
     opacity: 1;
 }
 
 .post-listing-card:hover img {
-    width: 0%;
+    width: 0;
     opacity: 0;
 }
-
-@media (max-width: 821px) {
-    .post-listing-card {
-        max-height: 3000px;
-    }
-    .post-listing-card img,
-    .post-listing-card:hover img {
-        animation: none;
-        transition: none;
-        width: 100%;
-    }
-    .sample-post-text {
-        all: unset;
-        display: block;
-        z-index: 1;
-        position: relative;
-    }
-    .sample-post-text p {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 14pt;
-    }
+.post-listing-card:hover a {
+    color: #247ba0;
 }
 
-@keyframes shrink-image {
-    100% { height: 3px; opacity: 0; }
+.sample-post-text {
+    position: absolute;
+    top: 15%;
+    z-index: -5;
+    width: 100%;
+    text-align: center;
+    line-height: 1.5;
+}
+.sample-post-text p {
+    font: 18pt 'Federant', sans-serif;
+    padding: 10px;
 }
 
 .post-listing-card h2 {
@@ -94,8 +57,36 @@
     margin: 5px 0 10px;
     font-style: oblique;
 }
-
 .date-posted-stamp p { font-size: 12pt; }
+
+@media (max-width: 1001px) {
+    .post-card-container {
+        /* TODO: Force single column on mobile with better logic */
+        grid-template-columns: 300px;
+    }
+    .post-listing-card,
+    .post-listing-card img,
+    .post-listing-card:hover img {
+        animation: none;
+        transform: none;
+        transition: none;
+        opacity: 1;
+        width: 100%;
+    }
+    .sample-post-text {
+        all: unset;
+        display: block;
+        position: relative;
+        z-index: 1;
+    }
+    .sample-post-text p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14pt;
+        margin: 0;
+        padding: 10px 10px 0;
+    }
+}
+
 
 .posts-header {
     background: url('../img/primary/about-me-book-shelf.webp') center/cover;
@@ -151,7 +142,6 @@
     padding: 30px;
     margin: auto;
 }
-
 
 .post-header {
     margin: 25px auto;
