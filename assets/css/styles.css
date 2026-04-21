@@ -7,11 +7,14 @@
 
 html {
   overflow-y: scroll;
-  box-sizing: unset;
+  scroll-behavior: smooth;
 }
 
 body {
-  box-sizing: unset;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 h1,
@@ -20,25 +23,23 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: bold;
-  padding-top: 20px;
   font-family: 'Federant', sans-serif;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
 }
+h1 { font-size: 2.8rem;}
+h2 {font-size: 2.20rem;}
+h3 {font-size: 1.8rem;}
+h4 {font-size: 1.5rem;}
+h5 {font-size: 1.35rem;}
+h6 {font-size: 1.15rem;}
 
 p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.25rem; /* Slightly reduced from 1.3rem for better proportions */
-    
-    /* Legibility & Smoothness */
-    line-height: 1.65;         /* Adds breathing room between lines */
-    letter-spacing: -0.015em;  /* Arial looks better slightly "tighter" at larger sizes */
-    word-spacing: 0.05em;      /* Improves the flow of sentences */
-    
-    /* Font Smoothing */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;
-    margin: 0;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  word-spacing: 0.05em;
 }
 
 .spacer {
@@ -65,27 +66,20 @@ p {
 .post-content {
   padding: 0;
 }
-
-.blog-content {
-  padding: 10px;
-}
-
-.blog-content {
-  margin: 90px auto 32px;
-  max-width: 860px;
-  overflow-wrap: break-word;
-  word-wrap: break-word;
-}
-
-.blog-content p {
-  padding-bottom: 20px;
-  padding-top: 10px;
-}
-
 .post-content {
   margin: 0px auto 0px auto;
   max-width: 1300px;
   text-align: center;
+}
+
+.blog-content {
+  max-width: 45rem;
+  margin: 35px auto;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+.blog-content p {
+  padding-top: 10px;
 }
 
 a,
@@ -99,27 +93,6 @@ a:hover {
   color: #62246B;
   text-decoration: none;
 }
-
-.align-page-controls {
-  margin-left: 0;
-  margin-right: 0;
-  align-items: center;
-  text-align: center;
-}
-
-.posts-pagination-table {
-  width: 100%;
-}
-
-.posts-container-shadow {
-  box-shadow: whitesmoke 0px 10px 20px;
-}
-
-.ng-cloak {
-  display: none !important;
-}
-
-/* NAV */
 
 .navbar-dark .nav-link {
   min-width: 90px;
@@ -141,25 +114,8 @@ a:hover {
   padding: 0;
 }
 
-/* footer */
-
 .footer-disclaimer {
   font-size: 8pt;
-}
-
-.page-fade-in {
-  width: 100%;
-  animation: fadeIn .5s;
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
 }
 
 .show-consent-banner {

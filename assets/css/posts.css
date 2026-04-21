@@ -45,17 +45,16 @@
     display: block;
     border-bottom: solid gray 1px;
     height: 100%;
-    width: 100%;           /* Full width initially */
+    width: 100%;
     border-radius: 8px;
-    object-fit: cover;     /* Keeps the photo from looking squashed */
-    
-    /* Anchor point is naturally the left; we just transition the width */
+    object-fit: cover;
+
     transition: width 0.5s ease-in-out, opacity 0.4s ease-in-out;
     opacity: 1;
 }
 
 .post-listing-card:hover img {
-    width: 0%;             /* Shrinks leftward to nothing */
+    width: 0%;
     opacity: 0;
 }
 
@@ -136,7 +135,9 @@
 
 .posts-header-title h2, 
 .posts-header-title p { 
-    font-style: oblique; 
+    font-style: oblique;
+    padding: 0;
+    margin:0;
     font-size: 18pt; 
 }
 
@@ -149,4 +150,18 @@
 .featured-posts-title h2 {
     padding: 30px;
     margin: auto;
+}
+
+
+.post-header {
+    margin: 25px auto;
+}
+.post-header p {
+    font-style: oblique;
+    font-size: 14pt;
+}
+.post-header h1,
+.post-header p {
+    padding: 0;
+    margin: 0;
 }
