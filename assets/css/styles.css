@@ -303,36 +303,28 @@ a:hover {
 
 .posts-header {
     background: url('/assets/img/primary/about-me-book-shelf.webp') center/cover;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    z-index: 1;
     height: 50vh;
     max-height: 1000px;
-    min-height: 290px;
-    position: relative;
+    min-height: 280px;
+    user-select: none;
     text-align: center;
-}
 
-.posts-header-title {
-    position: absolute;
-    padding-bottom: 30px;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
 }
 
 .posts-header-title h1, 
 .posts-header-title h2, 
 .posts-header-title p {
-    color: whitesmoke;
+    color: var(--color-text-light);
     font-weight: bold;
-    text-shadow: 2px 2px 1px black;
+    margin: 0;
+    padding: 0;
 }
 
 .posts-header-title h1 { 
-    margin: 0; 
     font-size: 40pt; 
     text-shadow: 3px 3px 1px black; 
 }
@@ -340,9 +332,8 @@ a:hover {
 .posts-header-title h2, 
 .posts-header-title p { 
     font-style: oblique;
-    padding: 0;
-    margin:0;
-    font-size: 18pt; 
+    font-size: 18pt;
+    text-shadow: 2px 2px 1px black; 
 }
 
 .featured-posts-title { 
