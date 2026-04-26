@@ -7,7 +7,6 @@
     --color-secondary: #7ca5b8;
     --color-tri: #444444;
     --color-accent: #083f5c;
-
     /* Text & UI */
     --color-text-light: whitesmoke;
 }
@@ -16,39 +15,19 @@
 
 .theme-colors {
     background-color: #896978;
-   /* background-color: #7ca5b8; */
-    /*background-color: #3D8F81; */
 }
-
 .primary-theme-color {
-    
    background-color: #7fb069;
-   /* background-color: #C2F9BB;*/
-    /* color: whitesmoke; */
 }
-
 .secondary-theme-color {
     background-color: #7ca5b8;
-   /* background-color: #896978;*/
-  /*  background-color: #247BA0; */
     color: whitesmoke;
     outline: 1px solid transparent;
-
     /* Smooth Edges */
     -webkit-backface-visibility: hidden;
     transform: translateZ(0);
     will-change: transform;
     -webkit-perspective: 1000;
-}
-
-.tri-theme-color {
-    background-color: #444444;
-    color: whitesmoke;
-}
-
-.accent-theme-color {
-    background-color: #083f5c;
-    
 }
 
 /* Main */
@@ -138,6 +117,7 @@ p {
 }
 
 a,
+a:visited,
 a:link {
   color: #62246B;
   text-decoration: none;
