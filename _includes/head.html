@@ -1,9 +1,18 @@
 <head>
     <!-- Copyright bookenjenn.com All Rights Reserved -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YKR7RYKJQD"></script>
-    <script> window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-YKR7RYKJQD', {cookie_flags: 'SameSite=None;Secure' });</script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="/assets/css/styles.css" rel="stylesheet">
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" rel="stylesheet" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    {% if page.url == "/" or page.url == "/index.html" %}
+    <link rel="preload" as="image" href="/assets/img/primary/about-me-book-shelf.webp" fetchpriority="high">
+    {% endif %}
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YKR7RYKJQD"></script>
+    <script> window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-YKR7RYKJQD', {cookie_flags: 'SameSite=None;Secure' });</script>
+
     <meta name="robots" content="index, follow">
     <meta name="color-scheme" content="light dark">
     <link rel="icon" type="image/webp" href="/favicon.webp">
@@ -15,13 +24,5 @@
     {% endif %}
     
     {% seo %}
-
-    {% if page.url == "/" or page.url == "/index.html" %}
-    <link rel="preload" as="image" href="/assets/img/primary/about-me-book-shelf.webp" fetchpriority="high">
-    {% endif %}
-
-    <link href="/assets/css/styles.css" rel="stylesheet">
-    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" rel="stylesheet" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
 </head>
