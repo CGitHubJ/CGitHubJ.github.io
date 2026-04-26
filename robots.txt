@@ -10,5 +10,6 @@ Disallow: /mediaposts
 Disallow: /articles
 Disallow: /bookreviews
 Disallow: /blogposts
+Disallow: /assets/files/
 
 Sitemap: {{ "sitemap.xml" | absolute_url }}
