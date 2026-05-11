@@ -1,15 +1,47 @@
 ---
 ---
 
+# bookenjenn.com
+# ========================================================
+# SECTION 1: SPECIFIC BOT BLOCKS (AI & AGGRESSIVE SCRAPERS)
+# ========================================================
+# These bots are known for high-volume scraping or AI training.
+
+User-agent: GPTBot
+User-agent: ChatGPT-User
+User-agent: Google-Extended
+User-agent: CCBot
+User-agent: Anthropic-AI
+User-agent: Claude-Web
+User-agent: ClaudeBot
+User-agent: Omegabot
+User-agent: Bytespider
+User-agent: ImagesiftBot
+User-agent: PerplexityBot
+Disallow: /
+
+# ========================================================
+# SECTION 2: GLOBAL RULES (ALL OTHER BOTS)
+# ========================================================
+# Applies to Google, Bing, DuckDuckGo, etc.
+
 User-agent: *
+
+# Block sensitive or low-value pages
 Disallow: /404
 Disallow: /legal/terms-and-conditions
 Disallow: /legal/privacy-policy
 Disallow: /contact
+
+# Block content directories (if you want these hidden from search)
 Disallow: /mediaposts
 Disallow: /articles
 Disallow: /bookreviews
 Disallow: /blogposts
 Disallow: /assets/files/
+
+# ========================================================
+# SECTION 3: SITEMAP
+# ========================================================
 
 Sitemap: {{ "sitemap.xml" | absolute_url }}

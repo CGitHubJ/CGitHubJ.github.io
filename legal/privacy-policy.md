@@ -6,7 +6,7 @@ categories: legal
 
 Last Updated: {{ site.privacyUpdate }}
 
-Welcome! This policy explains how we handle your information when you use our services. Our goal is to be transparent about your privacy rights and how we work to protect your data.
+Welcome! This policy explains how we handle your information when you use our services on bookenjenn.com. Our goal is to be transparent about your privacy rights and how we work to protect your data.
 
 By using our site, you agree to the collection and use of information in accordance with this policy.
 
