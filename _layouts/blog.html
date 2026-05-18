@@ -1,0 +1,30 @@
+---
+layout: primary
+---
+
+<div class="rotate-right">
+    <div class="featured-posts-title secondary-theme-color center-text">
+        <h1>My Book Reviews and Blogs</h1>
+    </div>
+</div>
+<div class="post-content" data-nosnippet>
+<div class="post-card-container">
+{% for post in site.posts %}
+<div class="post-listing-card"  onclick="goToPost('{{ post.url | absolute_url }}')">
+    <div class="post-listing-card-top">
+        <img src='{{ post.image }}' loading="lazy" alt="{{ post.title }}">
+    </div>
+    <div class="post-listing-card-bottom">
+        <h2> <a class="anc-hover" href="{{ post.url | absolute_url }}">{{ post.title }}</a> </h2>
+        <div class="sample-post-text">
+            <p>{{ post.description | default: post.title }}</p>
+        </div>
+        <div class="date-posted-stamp">
+            {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
+            <p>Posted: {{ post.date | date: date_format }}</p>
+        </div>
+    </div>
+</div>
+{% endfor %}
+</div>
+</div>

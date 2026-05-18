@@ -3,8 +3,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link href="/assets/css/styles.css" rel="stylesheet">
     <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/css/styles.css" rel="stylesheet">
     <link href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" rel="stylesheet" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     {% if page.url == "/" or page.url == "/index.html" %}
     <link rel="preload" as="image" href="/assets/img/primary/about-me-book-shelf.webp" fetchpriority="high">
@@ -16,9 +16,6 @@
     <meta name="robots" content="index, follow">
     <meta name="color-scheme" content="light dark">
     <link rel="icon" type="image/webp" href="/favicon.webp">
-    {% if page.keywords %}
-    <meta name="keywords" content="{{ page.keywords | join: ', ' | escape }}">
-    {% endif %}
     {% if site.title %}
     <title>{{ page.title | default: site.title }}</title>
     {% endif %}

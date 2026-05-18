@@ -1,6 +1,6 @@
 title: BookEnjenn
-description: >- # this means to ignore newlines until "baseurl:"
-  I Love Books | Book Reviews and More! | Book Enjenn | bookenjenn.com
+description: I Love Books | Book Reviews and More! | Book Enjenn | bookenjenn.com
+slogan: Powered By Books
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://bookenjenn.com" # the base hostname & protocol for your site, e.g. http://example.com

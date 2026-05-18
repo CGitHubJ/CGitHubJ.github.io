@@ -2,30 +2,50 @@
 layout: primary
 ---
 
-{% include posts-header.html %}
+<header class="posts-header" id="posts-home-header-id">
+    <div class="posts-header-title">
+        <div>
+            <img src="/assets/img/primary/my-profile-pic-w.webp">
+        </div>
+        <div>
+            <h1>Book EnJenn</h1>
+            <h2>Powered By Books!</h2>
+            <p>Hi! I'm Jenn. I’m a writer, editor, and content creator with a passion for books. I write insightful
+                reviews focusing
+                on plot, character development, and reader interest.
+            </p>
+            <div class="col p-2 ms-auto text-center">
+                <a href="{{ site.instagramUrl }}">
+                    <i class="fab fa-instagram fa-3x m-1"></i></a>
+                <a href="{{ site.goodreadsUrl }}">
+                    <i class="fab fa-goodreads fa-3x m-1"></i></a>
+                <a href="{{ site.linkedinUrl }}">
+                    <i class="fab fa-linkedin fa-3x m-1"></i></a>
+            </div>
+        </div>
+    </div>
+</header>
 <div class="rotate-right">
     <div class="featured-posts-title secondary-theme-color center-text">
-        <h2>My Book Reviews</h2>
+        <h2>Recent Posts</h2>
     </div>
-</div>
-<div class="post-content" data-nosnippet>
-<div class="post-card-container">
-{% for post in site.posts %}
-<div class="post-listing-card"  onclick="goToPost('{{ post.url | absolute_url }}')">
-    <div class="post-listing-card-top">
-        <img src='{{ post.image }}' loading="lazy" alt="{{ post.title }}">
-    </div>
-    <div class="post-listing-card-bottom">
-        <h2> <a class="anc-hover" href="{{ post.url | absolute_url }}">{{ post.title }}</a> </h2>
-        <div class="sample-post-text">
-            <p>{{ post.description | default: post.title }}</p>
+    <div class="post-card-container">
+        {% for post in site.posts limit:4 %}
+        <div class="post-listing-card" onclick="goToPost('{{ post.url | absolute_url }}')">
+            <div class="post-listing-card-top">
+                <img src='{{ post.image }}' loading="lazy" alt="{{ post.title }}">
+            </div>
+            <div class="post-listing-card-bottom">
+                <h2> <a class="anc-hover" href="{{ post.url | absolute_url }}">{{ post.title }}</a> </h2>
+                <div class="sample-post-text">
+                    <p>{{ post.description | default: post.title }}</p>
+                </div>
+                <div class="date-posted-stamp">
+                    {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
+                    <p>Posted: {{ post.date | date: date_format }}</p>
+                </div>
+            </div>
         </div>
-        <div class="date-posted-stamp">
-            {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
-            <p>Posted: {{ post.date | date: date_format }}</p>
-        </div>
+        {% endfor %}
     </div>
-</div>
-{% endfor %}
-</div>
 </div>

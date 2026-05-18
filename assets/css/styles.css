@@ -1,37 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Federant&display=swap');
-
 :root {
-    /* Main Palette */
-    --color-bg-main: #896978;
-    --color-primary: #7fb069;
-    --color-secondary: #7ca5b8;
-    --color-tri: #444444;
-    --color-accent: #083f5c;
-    /* Text & UI */
-    --color-text-light: whitesmoke;
+  --color-bg-main: #896978;
+  --link-color: #62246B;
+  --color-primary: #7fb069;
+  --color-secondary: #247ba0;
+  --color-tri: #444444;
+  --color-accent: #083f5c;
+  --color-text-light: whitesmoke;
+  --default-font: source-serif-pro, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
-/* Theme Helper */
-
-.theme-colors {
-    background-color: #896978;
-}
-.primary-theme-color {
-   background-color: #7fb069;
-}
-.secondary-theme-color {
-    background-color: #7ca5b8;
-    color: whitesmoke;
-    outline: 1px solid transparent;
-    /* Smooth Edges */
-    -webkit-backface-visibility: hidden;
-    transform: translateZ(0);
-    will-change: transform;
-    -webkit-perspective: 1000;
-}
-
-/* Main */
-
+/* Global / Resets */
 * {
   margin: 0;
   padding: 0;
@@ -43,30 +21,63 @@ html {
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: var(--default-font);
   text-rendering: optimizeLegibility;
 }
 
+/* Theme Helpers */
+.theme-colors {
+  background-color: var(--color-bg-main);
+}
+
+.primary-theme-color {
+  background-color: var(--color-primary);
+}
+
+.secondary-theme-color {
+  background-color: var(--color-secondary);
+  color: whitesmoke;
+  outline: 1px solid transparent;
+  transform: translateZ(0);
+  will-change: transform;
+}
+
+/* Typography */
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: 'Federant', sans-serif;
   font-weight: 700;
   line-height: 1.1;
   margin-top: 1.5em;
   margin-bottom: 0.5em;
 }
-h1 { font-size: 2.8rem;}
-h2 {font-size: 2.20rem;}
-h3 {font-size: 1.8rem;}
-h4 {font-size: 1.5rem;}
-h5 {font-size: 1.35rem;}
-h6 {font-size: 1.15rem;}
+
+h1 {
+  font-size: 2.8rem;
+}
+
+h2 {
+  font-size: 2.20rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.35rem;
+}
+
+h6 {
+  font-size: 1.15rem;
+}
 
 p {
   font-size: 1.2rem;
@@ -74,16 +85,29 @@ p {
   word-spacing: 0.05em;
 }
 
+/* Base Elements & Utilities */
+a,
+a:visited,
+a:link {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+.anc-hover:hover,
+a:hover {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
 .spacer {
   flex: 1;
 }
 
 .float-left {
-  display: relative;
+  position: relative;
+  display: block;
   width: 26%;
   float: left;
-  margin: 3px;
-  margin: 0;
   padding: 6px;
 }
 
@@ -95,11 +119,10 @@ p {
   padding: 5px;
 }
 
+/* Layout Components */
 .post-content {
   padding: 0;
-}
-.post-content {
-  margin: 0px auto 0px auto;
+  margin: 0 auto;
   max-width: 1300px;
   text-align: center;
 }
@@ -112,29 +135,21 @@ p {
   overflow-wrap: break-word;
   word-wrap: break-word;
 }
+
 .blog-content p {
   padding-top: 10px;
 }
 
-a,
-a:visited,
-a:link {
-  color: #62246B;
-  text-decoration: none;
-}
-
-.anc-hover:hover,
-a:hover {
-  color: #62246B;
-  text-decoration: none;
-}
-
-.navbar-dark .nav-link {
-  min-width: 90px;
+/* Navigation */
+.nav-link {
   text-align: center;
-  font-size: 1.5rem;
-  color: #62246B;
-  font-family: 'Federant', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link.active {
+  color: var(--color-text-light);
+  text-decoration: underline;
 }
 
 .navbar-brand {
@@ -149,6 +164,7 @@ a:hover {
   padding: 0;
 }
 
+/* Components & Content Media */
 .footer-disclaimer {
   font-size: 8pt;
 }
@@ -160,7 +176,7 @@ a:hover {
   bottom: 0;
   height: 200px;
   width: 100%;
-  background-color: whitesmoke;
+  background-color: var(--color-primary);
   text-align: center;
   color: black;
 }
@@ -175,16 +191,13 @@ a:hover {
 
 .img-caption-include {
   text-align: center;
-  margin: 10px auto 10px auto;
-  /* width: 90%; */
-  border: solid 1px whitesmoke;
+  margin: 10px auto;
+  border: solid 1px var(--color-primary);
 }
 
 .img-caption-include img {
   width: 100%;
 }
-
-/* I Frame */
 
 .frame {
   width: 100%;
@@ -198,7 +211,7 @@ a:hover {
   height: 842px;
 }
 
-/* about page section */
+/* About Section Grid Layout */
 .row {
   display: flex;
 }
@@ -208,154 +221,175 @@ a:hover {
   min-width: 400px;
 }
 
-
-/* Posts and Post cards */
-
-.post-card-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, 300px);
-    gap: 20px 10px;
-    justify-content: center;
-    width: 100%;
-    margin: 0 auto;
-}
-
-.post-listing-card {
-    position: relative;
-    max-width: 300px;
-    overflow: hidden;
-    cursor: pointer;
-}
-.post-listing-card-top { height: 420px; }
-.post-listing-card img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 8px;
-    border-bottom: 1px solid gray;
-    margin-bottom: 10px;
-    transition: width 0.5s ease-in-out, opacity 0.4s ease-in-out;
-    opacity: 1;
-}
-
-.post-listing-card:hover img {
-    width: 0;
-    opacity: 0;
-}
-.post-listing-card:hover a {
-    color: #247ba0;
-}
-
-.sample-post-text {
-    position: absolute;
-    top: 15%;
-    z-index: -5;
-    width: 100%;
-    text-align: center;
-    line-height: 1.5;
-}
-.sample-post-text p {
-    font: 18pt 'Federant', sans-serif;
-    padding: 10px;
-}
-
-.post-listing-card h2 {
-    margin: 0;
-    font-size: 18pt;
-    overflow: hidden;
-}
-
-.date-posted-stamp {
-    margin: 5px 0 10px;
-    font-style: oblique;
-}
-.date-posted-stamp p { font-size: 12pt; }
-
-@media (max-width: 1001px) {
-    .post-card-container {
-        /* TODO: Force single column on mobile with better logic */
-        grid-template-columns: 300px;
-    }
-    .post-listing-card,
-    .post-listing-card img,
-    .post-listing-card:hover img {
-        animation: none;
-        transform: none;
-        transition: none;
-        opacity: 1;
-        width: 100%;
-    }
-    .sample-post-text {
-        all: unset;
-        display: block;
-        position: relative;
-        z-index: 1;
-    }
-    .sample-post-text p {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 14pt;
-        margin: 0;
-        padding: 10px 10px 0;
-    }
-}
-
-
+/* Header Sections */
 .posts-header {
-    background: url('/assets/img/primary/about-me-book-shelf.webp') center/cover;
-    height: 50vh;
-    max-height: 1000px;
-    min-height: 280px;
-    user-select: none;
-    text-align: center;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
-    align-items: center;
+  /* The linear-gradient goes FIRST, then the image url */
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+              url(/assets/img/primary/about-me-book-shelf.webp) center/cover;
+              
+  min-height: 400px;
+  width: 100%;
+  user-select: none;
+  display: grid;
+  place-items: center;
+  color: var(--color-text-light);
 }
+
+.posts-header-title img {
+  width: 100%;
+  max-width: 420px;
+  height: auto;
+  border-radius: 10px;
+  box-sizing: border-box
+}
+
+.posts-header-title {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+  align-items: center;
+  justify-items: center;
+  gap: 15px;
+  padding: 2rem;
+  /* margin: 2rem; */
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  
+  /* The radial gradient replaces background-color */
+  background: radial-gradient(
+    ellipse at center, 
+    rgba(0, 0, 0, 0.6) 0%,   /* Darkest in the exact center */
+    rgba(0, 0, 0, 0.3) 50%,  /* Gradually fading out */
+    rgba(0, 0, 0, 0) 80%     /* Completely transparent before hitting the edges */
+  ); 
+}
+
 
 .posts-header-title h1, 
-.posts-header-title h2, 
-.posts-header-title p {
-    color: var(--color-text-light);
-    font-weight: bold;
-    margin: 0;
-    padding: 0;
+.posts-header-title h2 {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
 }
 
-.posts-header-title h1 { 
-    font-size: 40pt; 
-    text-shadow: 3px 3px 1px black; 
+.featured-posts-title {
+  margin: 0 auto 35px;
+  text-align: center;
 }
 
-.posts-header-title h2, 
-.posts-header-title p { 
-    font-style: oblique;
-    font-size: 18pt;
-    text-shadow: 2px 2px 1px black; 
-}
-
-.featured-posts-title { 
-    margin: 0 auto 35px; 
-    text-align: center; 
-}
-
-.featured-posts-title h1, 
+.featured-posts-title h1,
 .featured-posts-title h2 {
-    padding: 30px;
-    margin: auto;
+  padding: 30px;
+  margin: auto;
 }
 
 .post-header {
-    margin: 25px auto;
+  margin: 25px auto;
 }
-.post-header p {
-    font-style: oblique;
-    font-size: 14pt;
-}
+
 .post-header h1,
 .post-header p {
-    padding: 0;
+  padding: 0;
+  margin: 0;
+}
+
+/* Post Listings Cards Grid */
+.post-card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 300px);
+  gap: 20px 10px;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.post-listing-card {
+  position: relative;
+  max-width: 300px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.post-listing-card-top {
+  height: 420px;
+}
+
+.post-listing-card img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  border-bottom: 1px solid gray;
+  margin-bottom: 10px;
+  transition: width 0.5s ease-in-out, opacity 0.4s ease-in-out;
+  opacity: 1;
+}
+
+.post-listing-card:hover img {
+  width: 0;
+  opacity: 0;
+}
+
+.post-listing-card:hover a {
+  color: #247ba0;
+}
+
+.sample-post-text {
+  position: absolute;
+  top: 15%;
+  z-index: -5;
+  width: 100%;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.sample-post-text p {
+  font: 18pt 'Federant', sans-serif;
+  padding: 10px;
+}
+
+.post-listing-card h2 {
+  margin: 0;
+  font-size: 18pt;
+  overflow: hidden;
+}
+
+.date-posted-stamp {
+  margin: 5px 0 10px;
+  font-style: oblique;
+}
+
+.date-posted-stamp p {
+  font-size: 12pt;
+}
+
+/* Responsive Overrides */
+@media (max-width: 1001px) {
+  .post-card-container {
+    grid-template-columns: 300px;
+  }
+
+  .post-listing-card,
+  .post-listing-card img,
+  .post-listing-card:hover img {
+    animation: none;
+    transform: none;
+    transition: none;
+    opacity: 1;
+    width: 100%;
+  }
+
+  .sample-post-text {
+    all: unset;
+    display: block;
+    position: relative;
+    z-index: 1;
+  }
+
+  .sample-post-text p {
+    font-size: 14pt;
     margin: 0;
+    padding: 10px 10px 0;
+  }
 }
