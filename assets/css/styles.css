@@ -1,8 +1,9 @@
 :root {
-  --color-bg-main: #896978;
-  --link-color: #62246B;
-  --color-primary: #7fb069;
-  --color-secondary: #247ba0;
+  --color-bg-main: #031E42;
+  --link-color: #B0A3D4;
+  --read-link-color: #7a5dca;
+  --color-primary: #EFEDE3;
+  --color-secondary: #787C51;
   --color-tri: #444444;
   --color-accent: #083f5c;
   --color-text-light: whitesmoke;
@@ -135,6 +136,17 @@ a:hover {
   overflow-wrap: break-word;
   word-wrap: break-word;
 }
+
+.blog-content a {
+  text-decoration: underline;
+}
+
+.post-card-container a,
+.post-content a,
+.blog-content a {
+  color: var(--read-link-color);
+}
+
 
 .blog-content p {
   padding-top: 10px;
