@@ -6,6 +6,7 @@ categories: review
 permalink: make-me-famous-review
 image: /assets/img/2026/make-me-famous-review.webp
 description: She wants you to believe that she's a victim.
+pinned: true
 keywords:
   - Translated Fiction
   - Audiobook

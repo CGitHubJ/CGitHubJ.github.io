@@ -12,7 +12,7 @@ layout: primary
             <h2>Powered By Books!</h2>
             <p>Hi! I'm Jenn. I’m a writer, editor, and content creator with a passion for books. I write insightful
                 reviews focusing
-                on plot, character development, and reader interest.
+                on plot, character development, and reader interest. <a href="/contact">More></a>
             </p>
             <div class="col p-2 ms-auto text-center">
                 <a href="{{ site.instagramUrl }}">
@@ -31,6 +31,29 @@ layout: primary
     </div>
     <div class="post-card-container">
         {% for post in site.posts limit:4 %}
+        <div class="post-listing-card" onclick="goToPost('{{ post.url | absolute_url }}')">
+            <div class="post-listing-card-top">
+                <img src='{{ post.image }}' loading="lazy" alt="{{ post.title }}">
+            </div>
+            <div class="post-listing-card-bottom">
+                <h2> <a class="anc-hover" href="{{ post.url | absolute_url }}">{{ post.title }}</a> </h2>
+                <div class="sample-post-text">
+                    <p>{{ post.description | default: post.title }}</p>
+                </div>
+                <div class="date-posted-stamp">
+                    {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
+                    <p>Posted: {{ post.date | date: date_format }}</p>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <div class="featured-posts-title secondary-theme-color center-text">
+        <h2>Favorite Posts</h2>
+    </div>
+    <div class="post-card-container">
+        {% assign pinned_posts = site.posts | where: "pinned", true %}
+        {% for post in pinned_posts limit:4 %}
         <div class="post-listing-card" onclick="goToPost('{{ post.url | absolute_url }}')">
             <div class="post-listing-card-top">
                 <img src='{{ post.image }}' loading="lazy" alt="{{ post.title }}">

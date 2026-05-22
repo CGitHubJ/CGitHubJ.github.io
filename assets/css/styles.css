@@ -82,7 +82,7 @@ h6 {
 
 p {
   font-size: 1.2rem;
-  line-height: 1.5;
+  line-height: 1.6;
   word-spacing: 0.05em;
 }
 
@@ -231,6 +231,13 @@ a:hover {
 .column {
   flex: 50%;
   min-width: 400px;
+}
+
+.header-description {
+  font-style: italic;
+  /* Resets top margin to 0 and adds equal spacing below every paragraph */
+  margin-top: 0;
+  margin-bottom: 1.5rem;
 }
 
 /* Header Sections */

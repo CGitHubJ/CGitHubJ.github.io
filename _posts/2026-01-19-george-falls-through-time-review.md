@@ -6,6 +6,7 @@ categories: review
 permalink: george-falls-through-time-review
 image: /assets/img/2026/george-falls-through-time-review.webp
 description: Trading millennial “woes” for medieval survival.
+pinned: true
 keywords:
   - Time Travel
   - Romance
