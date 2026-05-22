@@ -196,11 +196,46 @@ a:hover {
   z-index: 2;
   position: fixed;
   bottom: 0;
-  height: 200px;
+  height: 100px;
   width: 100%;
   background-color: var(--color-primary);
   text-align: center;
   color: black;
+}
+.show-consent-banner button {
+  /* Clean, flat colors */
+  background-color: #111111;
+  color: #ffffff;
+  
+  /* Sizing & Bold Typography */
+  padding: 10px 22px;
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  
+  /* Sharp but slightly softened corners */
+  border: 2px solid #111111;
+  border-radius: 8px;
+  
+  /* Setup for smooth transition */
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  outline: none;
+}
+
+/* Minimal but playful hover */
+.show-consent-banner button:hover {
+  background-color: transparent;
+  color: #111111;
+  
+  /* Gives it a tiny, confident pop */
+  transform: translateY(-2px);
+}
+
+/* Snappy click effect */
+.show-consent-banner button:active {
+  transform: translateY(0);
 }
 
 .hide-consent-banner {
