@@ -335,6 +335,10 @@ a:hover {
 }
 
 .post-listing-card {
+  
+  content-visibility: auto;
+  contain-intrinsic-size: auto 450px;
+
   position: relative;
   max-width: 300px;
   overflow: hidden;

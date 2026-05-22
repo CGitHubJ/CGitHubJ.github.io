@@ -8,16 +8,18 @@ layout: primary
         {{ content }}
     </article>
 </div>
-<nav class="post-nav d-flex justify-content-between flex-wrap align-items-center p-3" data-nosnippet>
-    {% if page.previous %}
-    <a class="prev-link" href="{{ page.previous.url }}">&larr; Previous</a>
-    {% endif %}
-
-    {% if page.og_social_url %}
-    <a class="og-social-link" href="{{ page.og_social_url }}">GoTo OG Post!</a>
-    {% endif %} 
-
-    {% if page.next %}
-    <a class="next-link" href="{{ page.next.url }}">Next &rarr;</a>
-    {% endif %}
+<nav class="post-nav" data-nosnippet>
+    <div class="container-sm d-flex justify-content-between flex-wrap align-items-center p-3">
+        {% if page.previous %}
+        <a class="prev-link" href="{{ page.previous.url }}">&larr; Previous</a>
+        {% endif %}
+    
+        {% if page.og_social_url %}
+        <a class="og-social-link" href="{{ page.og_social_url }}">GoTo OG Post!</a>
+        {% endif %} 
+    
+        {% if page.next %}
+        <a class="next-link" href="{{ page.next.url }}">Next &rarr;</a>
+        {% endif %}
+    </div>
 </nav>
