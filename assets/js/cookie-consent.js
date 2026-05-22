@@ -16,7 +16,7 @@ setTimeout(function checkConsent() {
     } catch (error) {
         console.error(error);
     }
-}, 500 );
+}, 2500 );
 
 function hasLocalStorageConsent() {
     return localStorage.getItem(consentValue);
