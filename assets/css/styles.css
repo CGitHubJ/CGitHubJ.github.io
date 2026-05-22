@@ -157,6 +157,7 @@ a:hover {
   text-decoration: underline;
   font-weight: bold;
 }
+
 .post-nav {
   background-color: var(--color-secondary);
 }
@@ -252,9 +253,9 @@ a:hover {
 /* Header Sections */
 .posts-header {
   /* The linear-gradient goes FIRST, then the image url */
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
-              url(/assets/img/primary/about-me-book-shelf.webp) center/cover;
-              
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/assets/img/primary/about-me-book-shelf.webp) center/cover;
+
   min-height: 400px;
   width: 100%;
   user-select: none;
@@ -282,18 +283,20 @@ a:hover {
   position: relative;
   width: 100%;
   max-width: 1200px;
-  
+
   /* The radial gradient replaces background-color */
-  background: radial-gradient(
-    ellipse at center, 
-    rgba(0, 0, 0, 0.6) 0%,   /* Darkest in the exact center */
-    rgba(0, 0, 0, 0.3) 50%,  /* Gradually fading out */
-    rgba(0, 0, 0, 0) 80%     /* Completely transparent before hitting the edges */
-  ); 
+  background: radial-gradient(ellipse at center,
+      rgba(0, 0, 0, 0.6) 0%,
+      /* Darkest in the exact center */
+      rgba(0, 0, 0, 0.3) 50%,
+      /* Gradually fading out */
+      rgba(0, 0, 0, 0) 80%
+      /* Completely transparent before hitting the edges */
+    );
 }
 
 
-.posts-header-title h1, 
+.posts-header-title h1,
 .posts-header-title h2 {
   margin: 0;
   padding: 0;
@@ -403,6 +406,8 @@ a:hover {
     transition: none;
     opacity: 1;
     width: 100%;
+    justify-content: center;
+    text-align: center;
   }
 
   .sample-post-text {
