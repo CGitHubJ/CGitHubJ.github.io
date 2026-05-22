@@ -423,3 +423,10 @@ a:hover {
     padding: 10px 10px 0;
   }
 }
+
+@media (max-width: 801px) {
+  .posts-header-title {
+    text-align: center;
+    justify-content: center;
+  }
+}
