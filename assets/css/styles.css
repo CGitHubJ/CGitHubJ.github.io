@@ -309,7 +309,7 @@ a:hover {
 .post-card-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, 300px);
-  gap: 20px 10px;
+  gap: 10px 10px;
   justify-content: center;
   width: 100%;
   margin: 0 auto;
@@ -378,9 +378,6 @@ a:hover {
 
 /* Responsive Overrides */
 @media (max-width: 1001px) {
-  .post-card-container {
-    grid-template-columns: 300px;
-  }
 
   .post-listing-card,
   .post-listing-card img,
