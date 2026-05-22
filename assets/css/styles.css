@@ -152,6 +152,15 @@ a:hover {
   padding-top: 10px;
 }
 
+.post-nav a {
+  color: var(--color-primary);
+  text-decoration: underline;
+  font-weight: bold;
+}
+.post-nav {
+  background-color: var(--color-secondary);
+}
+
 /* Navigation */
 .nav-link {
   text-align: center;
