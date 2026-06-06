@@ -6,7 +6,6 @@ categories: review
 permalink: learned-from-course
 image: /assets/img/2025/learned-from-course.webp
 description: I'm only getting better
-pinned: true
 keywords:
   - ELVTR
   - Publishing
