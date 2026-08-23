@@ -7,6 +7,7 @@ categories: review
 permalink: books-to-read-during-the-holidays
 image: /assets/img/2023/dec-vacay-thumbnail.png
 description: You'll never be bored again!
+pinned: true
 keywords:
   - to read
   - vacation

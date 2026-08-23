@@ -6,7 +6,6 @@ categories: review
 permalink: if-books-could-kill
 image: /assets/img/2026/if-books-could-kill-review.webp
 description: Crime fighting, a weekend getaway at a couples retreat, a slow burn romance, and fast pace action!
-pinned: true
 keywords:
   - Romance
   - Thriller
