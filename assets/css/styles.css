@@ -372,6 +372,42 @@ a:hover {
   margin: 0;
 }
 
+.search-results :is(a, p, h2, h3) {
+  margin: 0;
+  line-height: 1;
+  color: var(--default-font);
+}
+
+.search-results {
+    min-height: calc(100vh - 315px);
+}
+
+.search-results a {
+  display: block;
+  margin: 14px 0;
+}
+
+.search-results a:hover {
+  text-decoration: underline;
+}
+
+.search-container {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  display: flex;
+  gap: 8px;
+}
+
+.search-container button {
+  background: none;
+  border: none;
+}
+
+#search-bar {
+  flex: 1;
+  min-width: 0;
+}
+
 /* Post Listings Cards Grid */
 .post-card-container {
   display: grid;

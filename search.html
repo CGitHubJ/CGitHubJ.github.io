@@ -1,0 +1,23 @@
+---
+layout: primary
+---
+
+<div class="container search-container">
+  <input id="search-bar" type="search" placeholder="Search..">
+  <button id="search-btn">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20" height="20" aria-label="Search">
+      <path
+        d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z" />
+    </svg>
+  </button>
+  <button id="clear-btn">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"  width="22" height="22" aria-label="Clear">
+      <path
+        d="M183.1 137.4C170.6 124.9 150.3 124.9 137.8 137.4C125.3 149.9 125.3 170.2 137.8 182.7L275.2 320L137.9 457.4C125.4 469.9 125.4 490.2 137.9 502.7C150.4 515.2 170.7 515.2 183.2 502.7L320.5 365.3L457.9 502.6C470.4 515.1 490.7 515.1 503.2 502.6C515.7 490.1 515.7 469.8 503.2 457.3L365.8 320L503.1 182.6C515.6 170.1 515.6 149.8 503.1 137.3C490.6 124.8 470.3 124.8 457.8 137.3L320.5 274.7L183.1 137.4z" />
+    </svg>
+  </button>
+</div>
+<div class="container">
+  <div class="search-results" id="search-result"></div>
+</div>
+<script src="./assets/js/search.js"></script>

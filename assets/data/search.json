@@ -1,0 +1,4 @@
+---
+layout: none
+---
+[{% for post in site.posts %}{"title":"{{ post.title | escape }}", "description":"{{ post.description | escape }}", "permalink":"{{ post.permalink | escape }}", "date":"{{ post.date | escape }}"} {% unless forloop.last %},{% endunless %}{% endfor %}]
