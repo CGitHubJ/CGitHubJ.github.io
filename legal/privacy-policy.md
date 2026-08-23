@@ -42,12 +42,22 @@ _Note: If you disable cookies entirely, some parts of our website might not work
 
 ---
 
+## Data Security
+
+We use reasonable technical and organizational measures designed to protect personal information against unauthorized access, loss, misuse, alteration, or disclosure.
+
+However, no method of transmission or storage is completely secure. We cannot guarantee the absolute security of information.
+
+---
+
 ## External Links
 
 Occasionally, we link to other websites that aren't run by us. If you click on a third-party link, you’ll be taken to their site. We recommend checking out their privacy policies too, as we don't have control over how they handle your information or what content they show.
 
 ---
 
-## Changes to This Policy
+## Changes to This Privacy Policy
 
-As our services grow, we may need to update this policy. We reserve the right to make changes at any time, and those changes go into effect the moment they are posted here. We encourage you to check back occasionally to stay informed.
+We may update this Privacy Policy from time to time. When we make changes, we will update the “Last updated” date at the top of this page. If a change materially affects how we use personal information, we will provide additional notice where required by law.
+
+The updated Privacy Policy becomes effective when posted unless a different effective date is stated.

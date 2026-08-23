@@ -192,32 +192,45 @@ a:hover {
 }
 
 .show-consent-banner {
-  border-top: solid black 2px;
-  z-index: 2;
   position: fixed;
-  bottom: 0;
-  height: 100px;
-  width: 100%;
+  z-index: 100;
+
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 90%;
+  max-width: 720px;
+  height: auto;
+  padding: 0;
+  margin: 0;
+
+  border: 1px solid black;
+  border-radius: 10px;
   background-color: var(--color-primary);
-  text-align: center;
   color: black;
+  text-align: center;
 }
+
+.show-consent-banner p {
+  font-size: 12.5pt;
+  padding: 3px;
+  margin: 0;
+}
+
 .show-consent-banner button {
-  /* Clean, flat colors */
   background-color: #111111;
-  color: #ffffff;
-  
-  /* Sizing & Bold Typography */
-  padding: 10px 22px;
+  color: var(--color-primary);
+
+  padding: 10px 20px;
   font-family: 'Inter', system-ui, sans-serif;
-  font-size: 0.95rem;
+  font-size: 0.8rem;
   font-weight: 600;
   letter-spacing: 0.3px;
-  
-  /* Sharp but slightly softened corners */
+
   border: 2px solid #111111;
   border-radius: 8px;
-  
+
   /* Setup for smooth transition */
   cursor: pointer;
   transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
@@ -228,7 +241,7 @@ a:hover {
 .show-consent-banner button:hover {
   background-color: transparent;
   color: #111111;
-  
+
   /* Gives it a tiny, confident pop */
   transform: translateY(-2px);
 }
@@ -370,7 +383,7 @@ a:hover {
 }
 
 .post-listing-card {
-  
+
   content-visibility: auto;
   contain-intrinsic-size: auto 450px;
 

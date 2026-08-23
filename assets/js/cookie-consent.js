@@ -1,58 +1,100 @@
-const consentValue = "bookenjenn-cookie-consent-{{ site.privacyUpdate }}";
+const consentKey = "bookenjenn-cookie-consent";
 
-setTimeout(function checkConsent() {
+const CONSENT_ACCEPTED = "accepted";
+const CONSENT_REJECTED = "rejected";
+
+function updateGoogleConsent(status) {
+    if (typeof gtag !== "function") {
+        return;
+    }
+
+    gtag("consent", "update", {
+        ad_storage: status,
+        ad_user_data: status,
+        ad_personalization: status,
+        analytics_storage: status
+    });
+}
+
+function setDeniedByDefault() {
+    hideConsentBanner()
+    if (typeof gtag !== "function") {
+        return;
+    }
+
+    gtag("consent", "default", {
+        ad_storage: "denied",
+        ad_user_data: "denied",
+        ad_personalization: "denied",
+        analytics_storage: "denied",
+        wait_for_update: 500
+    });
+}
+
+function checkConsent() {
+    const banner = document.getElementById("consent-banner-display");
+
     try {
-        if (!hasLocalStorageConsent()) {
-            askForConsent();
+        const consent = localStorage.getItem(consentKey);
+
+        if (consent === CONSENT_ACCEPTED) {
+            updateGoogleConsent("granted");
+            hideConsentBanner();
+        } else if (consent === CONSENT_REJECTED) {
+            updateGoogleConsent("denied");
+            hideConsentBanner();
         } else {
-            // If they already accepted on a previous page load, update Google immediately
-            gtag('consent', 'update', {
-                'ad_storage': 'granted',
-                'ad_user_data': 'granted',
-                'ad_personalization': 'granted',
-                'analytics_storage': 'granted'
-            });
+            askForConsent();
         }
     } catch (error) {
-        console.error(error);
+        console.error("Unable to read consent:", error);
+        askForConsent();
     }
-}, 2500 );
-
-function hasLocalStorageConsent() {
-    return localStorage.getItem(consentValue);
 }
 
 function askForConsent() {
-    console.log("asking for consent");
     const banner = document.getElementById("consent-banner-display");
+
     if (banner) {
-        banner.className = "show-consent-banner";
+        banner.classList.add("show-consent-banner");
+        banner.classList.remove("hide-consent-banner");
     }
+}
+
+function saveConsent(value) {
+    try {
+        localStorage.setItem(consentKey, value);
+    } catch (error) {
+        console.error("Unable to save consent:", error);
+    }
+
+    updateGoogleConsent(
+        value === CONSENT_ACCEPTED ? "granted" : "denied"
+    );
+
+    hideConsentBanner();
 }
 
 function hideConsentBannerOnAccept() {
     console.log("consent obtained");
-    localStorage.setItem(consentValue, true);
-    // Google Compliance Update: Signal GA4 that consent is granted
-    if (typeof gtag === 'function') {
-        gtag('consent', 'update', {
-            'ad_storage': 'granted',
-            'ad_user_data': 'granted',
-            'ad_personalization': 'granted',
-            'analytics_storage': 'granted'
-        });
-    }
+
+    saveConsent(CONSENT_ACCEPTED);
+}
+
+function hideConsentBannerOnReject() {
+    console.log("consent rejected");
+
+    saveConsent(CONSENT_REJECTED);
+}
+
+function hideConsentBanner() {
     const banner = document.getElementById("consent-banner-display");
+
     if (banner) {
-        banner.className = "hide-consent-banner";
+        banner.classList.add("hide-consent-banner");
+        banner.classList.remove("show-consent-banner");
     }
 }
 
-function tempHideConsent() {
-    const banner = document.getElementById("consent-banner-display");
-    if (banner) {
-        banner.className = "hide-consent-banner";
-    }
-}
-
-window.onload = tempHideConsent;
+setDeniedByDefault();
+setTimeout(checkConsent, 2600);
