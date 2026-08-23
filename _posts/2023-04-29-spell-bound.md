@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Spell Bound by F. T. Lukens Review
-date: 2023-04-29 14:41:50
+date: 2023-04-29 14:41:50 -0600
 categories: review
 permalink: spell-bound-review
 image: /assets/img/2023/spell-bound.png

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: If Books Could Kill Review
-date: 2026-07-14 10:41:50
+date: 2026-07-14 10:41:50 -0600
 categories: review
 permalink: if-books-could-kill
 image: /assets/img/2026/if-books-could-kill-review.webp

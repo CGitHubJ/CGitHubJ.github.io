@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Mean Ones Review
-date: 2025-06-20 10:41:50
+date: 2025-06-20 10:41:50 -0600
 categories: review
 permalink: the-mean-ones
 image: /assets/img/2025/the-mean-ones-blog.webp

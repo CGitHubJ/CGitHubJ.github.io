@@ -45,7 +45,7 @@ async function searchPosts(query) {
 
     searchQuery = query.trim().toLowerCase();
     if (!searchQuery || searchQuery.length < 3) {
-        updateUi("<p>Query less than 3 characters</p>");
+        updateUi("<p>Query Less Than 3 Characters</p>");
         return;
     }
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Vicious
-date: 2022-04-02 15:41:50
+date: 2022-04-02 15:41:50 -0600
 categories: review
 permalink: vicious-by-v-e-schwab-book-review
 image: /assets/img/2022/vicious.jpg

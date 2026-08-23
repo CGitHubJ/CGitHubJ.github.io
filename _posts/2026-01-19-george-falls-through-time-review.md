@@ -1,7 +1,7 @@
 ---
 layout: post
 title: George Falls Through Time Review
-date: 2026-01-19 10:41:50
+date: 2026-01-19 10:41:50 -0600
 categories: review
 permalink: george-falls-through-time-review
 image: /assets/img/2026/george-falls-through-time-review.webp

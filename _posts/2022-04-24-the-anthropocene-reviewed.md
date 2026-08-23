@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Anthropocene Reviewed by John Green Review
-date: 2022-04-24 15:41:50
+date: 2022-04-24 15:41:50 -0600
 categories: review
 permalink: the-anthropocene-reviewed-by-john-green-review
 image: /assets/img/2022/the-anthropocene-reviewed.jpg

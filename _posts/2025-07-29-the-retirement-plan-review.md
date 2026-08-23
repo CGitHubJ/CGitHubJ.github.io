@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Retirement Plan Review
-date: 2025-07-29 10:41:50
+date: 2025-07-29 10:41:50 -0600
 categories: review
 permalink: the-retirement-plan-review
 image: /assets/img/2025/the-retirement-plan-review.webp

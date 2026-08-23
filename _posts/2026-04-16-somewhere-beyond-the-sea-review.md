@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Somewhere Beyond the Sea Review
-date: 2026-04-16 10:41:50
+date: 2026-04-16 10:41:50 -0600
 categories: review
 permalink: somewhere-beyond-the-sea
 image: /assets/img/2026/somewhere-beyond-the-sea-review.webp

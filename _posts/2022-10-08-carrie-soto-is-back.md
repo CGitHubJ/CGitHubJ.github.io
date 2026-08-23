@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Carrie Soto is Back
-date: 2022-10-08 15:41:50
+date: 2022-10-08 15:41:50 -0600
 categories: review
 permalink: carrie-soto-is-back-review
 image: /assets/img/2022/carrie-soto-is-back.png

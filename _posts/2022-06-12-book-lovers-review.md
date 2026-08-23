@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Book Lovers by Emily Henry Review
-date: 2022-06-12 13:41:50
+date: 2022-06-12 13:41:50 -0600
 categories: review
 permalink: book-lovers-by-emily-henry-review
 image: /assets/img/2022/book_lovers.jpg

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What I Learned from a Book Publishing Course, and How It Made Me a Better Editor
-date: 2025-06-05 13:02:00
+date: 2025-06-05 13:02:00 -0600
 categories: review
 permalink: learned-from-course
 image: /assets/img/2025/learned-from-course.webp

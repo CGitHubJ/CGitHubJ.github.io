@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Our Infinite Fates Review
-date: 2025-03-01 10:41:50
+date: 2025-03-01 10:41:50 -0600
 categories: review
 permalink: our-infinite-fates
 image: /assets/img/2025/our-infinite-fates-blog.jpg

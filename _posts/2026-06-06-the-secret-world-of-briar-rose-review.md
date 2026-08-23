@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Secret World of Briar Rose Review
-date: 2026-06-06 10:41:50
+date: 2026-06-06 10:41:50 -0600
 categories: review
 permalink: secret-world-of-briar-rose
 image: /assets/img/2026/the-secret-world-of-briar-rose-review.webp

@@ -8,10 +8,10 @@
     {% endif %}
 
     {% if page.date %}
-    <p data-nosnippet>By <a href="/contact">Jenn Chastka</a> On {{ page.date | date: date_format }}</p>
+    <p data-nosnippet><a href="/contact">Jenn Chastka</a> | {{ page.date | date: date_format }}</p>
     {% endif %}
 
     {% if page.edit_date %}
-    <p>Last updated on {{ page.edit_date | date: date_format }}</p>
+    <p>Last Updated {{ page.edit_date | date: date_format }}</p>
     {% endif %}
 </header>

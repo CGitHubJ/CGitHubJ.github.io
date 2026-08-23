@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to Learn From the Heaviest of Books
-date: 2024-09-15 11:04:00 -400
+date: 2024-09-15 11:04:00 -0600
 categories: Post
 permalink: learn-from-heaviest-books
 image: /assets/img/2024/heavy-books.png

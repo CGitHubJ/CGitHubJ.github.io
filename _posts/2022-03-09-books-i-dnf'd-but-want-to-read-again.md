@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Books I DNF'd (but want to read again)
-date: 2022-03-09 19:41:50
+date: 2022-03-09 19:41:50 -0600
 categories: review
 permalink: books-i-dnfd-but-want-to-read-again
 image: /assets/img/2022/dnf-thumbnail.png

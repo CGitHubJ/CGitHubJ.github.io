@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Attached at the Hip Review
-date: 2026-04-18 10:41:50
+date: 2026-04-18 10:41:50 -0600
 categories: review
 permalink: attached-at-the-hip
 image: /assets/img/2026/attached-at-the-hip-blog.webp
