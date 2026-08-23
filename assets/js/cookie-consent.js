@@ -1,4 +1,4 @@
-const consentKey = "bookenjenn-cookie-consent";
+const consentKey = "bookenjenn-cookie-consent-2026-23-08";
 
 const CONSENT_ACCEPTED = "accepted";
 const CONSENT_REJECTED = "rejected";
@@ -32,11 +32,8 @@ function setDeniedByDefault() {
 }
 
 function checkConsent() {
-    const banner = document.getElementById("consent-banner-display");
-
     try {
         const consent = localStorage.getItem(consentKey);
-
         if (consent === CONSENT_ACCEPTED) {
             updateGoogleConsent("granted");
             hideConsentBanner();
@@ -44,7 +41,8 @@ function checkConsent() {
             updateGoogleConsent("denied");
             hideConsentBanner();
         } else {
-            askForConsent();
+            setDeniedByDefault();
+            setTimeout(askForConsent, 2600)
         }
     } catch (error) {
         console.error("Unable to read consent:", error);
@@ -96,5 +94,4 @@ function hideConsentBanner() {
     }
 }
 
-setDeniedByDefault();
-setTimeout(checkConsent, 2600);
+checkConsent();
