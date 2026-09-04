@@ -42,7 +42,7 @@ layout: primary
                 </div>
                 <div class="date-posted-stamp">
                     {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
-                    <p>Posted: {{ post.date | date: date_format }}</p>
+                    <p>Posted: {{ post.date | date: date_format | truncate: 66 }}</p>
                 </div>
             </div>
         </div>
@@ -61,7 +61,7 @@ layout: primary
             <div class="post-listing-card-bottom">
                 <h2> <a class="anc-hover" href="{{ post.url | absolute_url }}">{{ post.title }}</a> </h2>
                 <div class="sample-post-text">
-                    <p>{{ post.description | default: post.title }}</p>
+                    <p>{{ post.description | default: post.title | truncate: 66 }}</p>
                 </div>
                 <div class="date-posted-stamp">
                     {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
